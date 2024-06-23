@@ -1,0 +1,163 @@
+/* SignInPage.css */
+
+.sign-in-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    background-color: #f8f9fa;
+    padding-left: 8%;
+    padding-right: 8%;
+
+  }
+  
+  .info-section {
+    width: 50%;
+    padding-right: 20px;
+  }
+  
+  .info-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #007bff; 
+    color: #6f42c1; 
+  } 
+  .agree{
+    background-color:  #905eeb !important;
+  }
+  .mytext{
+    color: black;
+    font-weight: bold;
+  }
+  .info-section p {
+    margin-bottom: 20px;
+  }
+  
+  .illustrations {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .illustrations img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sign-in-section {
+    width: 40%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-in-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    /* color: #6f42c1; */
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-btn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .social-btn img {
+    width: 20px;
+    height: 10px;
+    /* height: auto; */
+    margin-right: 10px;
+  }
+  
+  .separator {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #6c757d;
+  }
+  
+  .sign-in-form .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .password-field {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-field .form-control {
+    flex: 1;
+  }
+  
+  .password-field i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .password-strength {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin-top: -10px;
+  }
+  
+  .terms {
+    font-size: 0.8em;
+    color: #6c757d;
+  }
+  
+  .terms a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .agree-btn {
+    width: 100%;
+  }
+  
+  .mybtn{
+    color: black !important;
+    border: 1px solid  #905eeb !important;
+  }
+  
+  .google{
+    height: 24px !important;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .sign-in-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .info-section,
+    .sign-in-section {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    .info-section {
+      order: 1;
+    }
+    
+    .sign-in-section {
+      order: 2;
+    }
+    
+    .illustrations {
+      order: 3;
+    }
+  }
+ 

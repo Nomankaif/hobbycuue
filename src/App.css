@@ -1,0 +1,84 @@
+.navbar {
+  margin-left: auto;
+}
+
+.logo {
+  width: 15%;
+}
+
+.navclass {
+  margin-left: 5%!important;
+  margin-right: 5%!important;
+}
+
+/* SearchBar.css */
+
+.search-form {
+  width: 100%!important;
+  max-width: 300px!important;
+}
+
+.searchmy {
+  margin-left: 2%;
+}
+
+.hobies {
+  font-weight: bold;
+  color: #000;
+}
+
+.search-input {
+  border-top-right-radius: 0!important;
+  border-bottom-right-radius: 0!important;
+  border-right: 0!important;
+}
+
+.color {
+  color: #905eeb!important;
+  padding-left: 10px!important;
+  font-size: 24px!important;
+}
+
+.colors {
+  color: #905eeb!important;
+  padding-left: 10px!important;
+  font-size: 30px!important;
+}
+
+.search-btn {
+  border-top-left-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+  background-color: #905eeb!important;
+  color: white!important;
+  border: 1px solid #6f42c1!important;
+}
+
+.search-btn.bi-search {
+  font-size: 1.2em!important;
+}
+
+@media (max-width: 767px) {
+  .search-input {
+    display: none; /* Hide the input field on smaller screens */
+  }
+
+  .search-btn {
+    /* Optional: Adjust button styles to make the icon more prominent */
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+  }
+  .search-input{
+    display: none !important;
+  }
+  .search-form{
+    width :10% !important;
+  }
+  .check{
+    display: flex;
+    /* flex-wrap:wrap-reverse !important; */
+  } 
+  .logo{
+    width: 50%;
+  }
+}

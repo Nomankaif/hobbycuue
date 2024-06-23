@@ -1,0 +1,95 @@
+/* card.css */
+
+.container {
+    margin-top: 10%;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-family: 'sans-serif'; /* Fallback for browsers without your font */
+  }
+  
+  .mybtning {
+    font-family: 'sans-serif';
+    color: #5d38a2 !important;
+    font-size: larger;
+  }
+  
+  .btn {
+    border: 1px solid #905eeb !important;
+  }
+  
+  .logo {
+    padding-right: 20px;
+  }
+  
+  .shop {
+    color: rgb(148, 5, 5);
+    font-size: 24px;
+  }
+  
+  .location {
+    color: rgb(0, 85, 0);
+    font-size: 24px;
+  }
+  
+  .people {
+    color: #5d38a2;
+    font-size: 24px;
+  }
+  
+  .note {
+    color: rgb(0, 80, 142);
+    font-size: 24px;
+  }
+  
+  .second {
+    margin-top: 5% !important;
+  }
+  
+  .card-body {
+    padding: 60px !important;
+  }
+  
+  .card-people:hover {
+    background-color: #5d38a2;
+    color: white;
+  }
+  
+  .card-people:hover .people {
+    color: white;
+  }
+  
+  .card-place:hover {
+    background-color: rgb(0, 85, 0);
+    color: white;
+  }
+  
+  .card-place:hover .location {
+    color: white;
+  }
+  
+  .card-product:hover {
+    background-color: rgb(148, 5, 5);
+    color: white;
+  }
+  
+  .card-product:hover .shop {
+    color: white;
+  }
+  
+  .card-program:hover {
+    background-color: rgb(0, 80, 142);
+    color: white;
+  }
+  
+  .card-program:hover .note {
+    color: white;
+  }
+  
+  

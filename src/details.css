@@ -1,0 +1,31 @@
+.container-details{
+    background-color: rgb(241, 254, 255);
+    width: 98%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 2%;
+}
+.heading-detailsjsx{
+  padding: 50px;
+}
+.btn-details{
+    background-color: #5d38a2;
+    color: white;
+    margin-top: 3%;
+}
+.hobby{
+    color:rgb(5, 109, 189) ;
+}
+.community{
+    color: #7544d1 ;
+}
+.detail-image{
+    width: 100vw;
+}
+@media (max-width: 768px) {
+    .container-details{
+        height: 50vh;
+    }
+
+}
+  
