@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hobbycuue/static/css/main.3218d35f.css",
+    "main.js": "/hobbycuue/static/js/main.6381b150.js",
+    "static/media/hero.png": "/hobbycuue/static/media/hero.042c87f0224bb3214f72.png",
+    "static/media/remove.png": "/hobbycuue/static/media/remove.1a072670f791ae8e7795.png",
+    "static/media/bharat.jpg": "/hobbycuue/static/media/bharat.15b233d6828a39e44274.jpg",
+    "static/media/img_header_logo.png": "/hobbycuue/static/media/img_header_logo.489081a7d9b4e966da53.png",
+    "index.html": "/hobbycuue/index.html",
+    "main.3218d35f.css.map": "/hobbycuue/static/css/main.3218d35f.css.map",
+    "main.6381b150.js.map": "/hobbycuue/static/js/main.6381b150.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3218d35f.css",
+    "static/js/main.6381b150.js"
+  ]
+}
